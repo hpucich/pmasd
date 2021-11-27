@@ -2,3 +2,5 @@ node_modules
 pmasd
 pmasd_repositorio
 no_git
+*.scss
+*.map

@@ -178,6 +178,10 @@ A {
   }
 }
 
+.titulo_carusel {
+  font-size: 3rem;
+}
+
 .txt_justificado {
   text-align: justify;
 }
@@ -239,6 +243,10 @@ A {
 .letra_mediana {
   font-size: 2rem;
   text-align: justify;
+}
+
+.parrafo {
+  font-size: 2rem;
 }
 
 .parrafo {
