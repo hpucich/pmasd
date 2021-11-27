@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,CAAC;EACE,MAAM,EAAC,GAAG;EACV,OAAO,EAAC,GAAG;CACb;;AAEF,AAAA,IAAI,CAAC;EACD,gBAAgB,ECRP,KAAK;CDWf;;AACD,AAAA,MAAM,CAAA;EACJ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,MAAM;CAEhB;;AAED,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;CACtB",
+    "sources": [
+        "body.scss",
+        "colores.scss"
+    ],
+    "names": [],
+    "file": "body.css"
+}

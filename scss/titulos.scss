@@ -1,0 +1,41 @@
+@import "colores";
+@import "tamanos_fuentes";
+%titulos{
+    color:$color_titulo;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* con % no se pasa la clase titulos al arch final css*/
+.titulo_pagina{
+    @extend %titulos;
+    font-size:$letra_grande;
+    }
+.titulo_seccion{
+    @extend %titulos;
+    font-size:$letra_mediana;    
+    }
+.footer__texto{
+    @extend %titulos;
+    font-size:$letra_chica;
+   
+}
+
+#divprofesoft{
+    @extend %titulos;
+    font-size:$letra_mediana;
+    text-align: right;
+    padding-top: 15px;
+}
+
+
+.titulo_pagina{
+    animation-duration: 3s;
+    animation-name: aparecer;
+  }
+
+  @keyframes aparecer{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+

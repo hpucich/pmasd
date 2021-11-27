@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,uBAAuB,CAAA;EACnB,KAAK,ECAH,QAAQ;EDCV,WAAW,EAAC,4BAA4B;EACxC,SAAS,EAAE,OAAO;CAErB;;AACD,AAAA,0BAA0B,CAAA;EACtB,KAAK,ECPK,OAAO;EDQjB,WAAW,EAAC,4BAA4B;EACxC,SAAS,EAAC,MAEd;CAAC",
+    "sources": [
+        "tablas.scss",
+        "colores.scss"
+    ],
+    "names": [],
+    "file": "tablas.css"
+}
