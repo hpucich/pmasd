@@ -1,0 +1,32 @@
+@import "tamanos_fuentes";
+@media screen and (max-width: 639px) {
+    .titulo_pagina{
+        font-size: $letra_grande/2;
+    }
+    .titulo_seccion {
+        font-size: $letra_mediana/2;
+    }
+    
+    #logo_pmasd{
+        width: $ancho_logo_pmasd*.6;
+        height: $alto_logo_pmasd*.6;
+    }
+    #logo_profesoft{
+        width: $ancho_logo_profesoft*.4;
+        height: $alto_logo_profesoft*.4;
+        text-align: center;
+    }
+
+
+    .logoChico{
+        width: $logo_chico*.6;
+        height: $logo_chico*.6;
+    }
+    #menu_secundario{
+        text-align: center;
+    }
+    .parrafo{
+        font-size: $letra_chica;
+    }    
+    
+  }

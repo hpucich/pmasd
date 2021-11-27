@@ -1,0 +1,287 @@
+.menu__boton-principal {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.menu__boton-principal:hover {
+  color: crimson;
+  text-decoration: none;
+}
+
+.menu_activo {
+  color: crimson;
+}
+
+.div_menu {
+  padding-bottom: 30px;
+}
+
+.menu_secundario {
+  background-color: crimson;
+  color: white;
+  font-size: 1.2rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.menu_secundario:hover {
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+}
+
+@-webkit-keyframes animacion_logo {
+  0% {
+    apacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animacion_logo {
+  0% {
+    apacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#logo_pmasd {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: animacion_logo;
+          animation-name: animacion_logo;
+}
+
+#logo_pmasd {
+  float: left;
+  width: 200px;
+  height: 100px;
+  left: 15px;
+  top: 0px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: animacion_logo;
+          animation-name: animacion_logo;
+}
+
+#Logo {
+  height: 100px;
+  width: 200px;
+  border-style: solid;
+}
+
+.logoChico {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.logoChico:hover {
+  height: 110px;
+  width: 110px;
+  padding: 5px;
+  background-color: white;
+}
+
+#logo_profesoft {
+  float: left;
+  width: 85px;
+  height: 50px;
+  top: 10px;
+  left: 15px;
+  top: 0rem;
+}
+
+* {
+  Margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+#fondo {
+  height: 450px;
+  width: 1250px;
+}
+
+A {
+  text-decoration: none;
+}
+
+.imagenes_carousel {
+  width: 100%;
+  max-height: 450px;
+  height: auto;
+}
+
+.iframe_tamano {
+  width: 100%;
+  height: 200px;
+}
+
+.titulo_pagina, .titulo_seccion, .footer__texto, #divprofesoft {
+  color: crimson;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* con % no se pasa la clase titulos al arch final css*/
+.titulo_pagina {
+  font-size: 3rem;
+}
+
+.titulo_seccion {
+  font-size: 2rem;
+}
+
+.footer__texto {
+  font-size: 1rem;
+}
+
+#divprofesoft {
+  font-size: 2rem;
+  text-align: right;
+  padding-top: 15px;
+}
+
+.titulo_pagina {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.txt_justificado {
+  text-align: justify;
+}
+
+.txt_centrado {
+  text-align: center;
+}
+
+.txt_izquierda {
+  text-align: left;
+}
+
+.txt_derecha {
+  text-align: right;
+}
+
+.font_style {
+  font-style: italic;
+  color: red;
+}
+
+.font_weight {
+  font-weight: lighter;
+}
+
+.text_transformation {
+  text-transform: initial;
+}
+
+.line_height {
+  line-height: 50px;
+}
+
+.text_decoration {
+  -webkit-text-decoration: maroon;
+  text-decoration: maroon;
+}
+
+.leter_spacing {
+  letter-spacing: 25px;
+}
+
+.word_spacing {
+  word-spacing: 30px;
+}
+
+.font_google {
+  font-family: 'Mukta', Arial;
+}
+
+.font_azul {
+  color: darkblue;
+}
+
+.font_bordo {
+  color: crimson;
+}
+
+.letra_mediana {
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.parrafo {
+  font-size: 2rem;
+}
+
+.table__series--detalle {
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+
+.table__series--encabezado {
+  color: crimson;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+@media screen and (max-width: 639px) {
+  .titulo_pagina {
+    font-size: 1.5rem;
+  }
+  .titulo_seccion {
+    font-size: 1rem;
+  }
+  #logo_pmasd {
+    width: 120px;
+    height: 60px;
+  }
+  #logo_profesoft {
+    width: 34px;
+    height: 20px;
+    text-align: center;
+  }
+  .logoChico {
+    width: 60px;
+    height: 60px;
+  }
+  #menu_secundario {
+    text-align: center;
+  }
+  .parrafo {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
