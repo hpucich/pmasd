@@ -12,95 +12,93 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
         crossorigin="anonymous">
         <link rel="stylesheet" href="scss/estilos.css"/>
-    </head>
+  
+
+      </head>
 <body>
-  <div class="container">
-    <div class="row">    
-      <div class="col col-md-3 col-sm-3 col-xs-12">
-        <a href="index.html"><img src="imagenes/logopmasdnuevo.jpg" alt="logo pmasd" id="logo_pmasd"> </a>  
-      </div>
-      <div class="col col-md-6 col-sm-6 col-xs-12" style="padding-top: 15px;">
-          <nav class="navbar navbar-expand-lg navbar-light" >
-            <a class="menu_activo menu__boton-principal" href="index.html">Inicio</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                    <a class="section menu__boton-principal"  href="pages/nuestra_empresa.html">Nuestra Empresa</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="menu__boton-principal"  href="pages/nuestros_servicios.html">Servicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="menu__boton-principal"  href="pages/informacion_util.html">Información Útil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="menu__boton-principal"  href="pages/contactenos.html">Escribinos</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="menu__boton-principal"  href="#">Cómo lo hago?</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-            </div>
-            <div class="col col-md-3 col-sm-3 col-xs-12" style="padding-top: 15px;">
-              <div class="col col-md-4 col-sm-4 col-xs-12" style="padding-top: 15px; text-align: right;"  id="divprofesoft">Ir a:</div>
-              <div class="col col-md-8 col-sm-8 col-xs-12">
-                <a href="http://profesoft.ar/"><img src="imagenes/logoprofesoftII.png" alt="logo profesoft" id="logo_profesoft"> </a>  
-              </div>  
-            </div> 
-            
-        </div>    
-    </div>    
+  
+  <nav class="navbar navbar-expand-sm navbar-light" >
+    <a class="navbar-brand" href="#" >
+      <a href="index.html"><img src="imagenes/logopmasdnuevo.jpg" alt="logo pmasd" id="logo_pmasd"> </a>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones" style="margin-left: 20px;">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
     
-    <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="color: brown;">
-          <!-- Indicadores -->
-          <ol class="carousel-indicators" >
-            <li data-target="#myCarousel" data-slide-to="0" class="active" ></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-       
-          <!-- Entorno para las diapositivas -->
-          <div class="carousel-inner" >
-            <div class="item active col col-md-4 col-sm-4 col-xs-12" style="height: 500px; width: 1150px; background-color:orange;">
-            
-            Sistema de Gestión para nuestros clientes 
-             <!--<img src="imagenes/Confianza.jpg" alt="Confianza" class="imagenes_carousel">-->
-            </div>
-       
-            <div class="item">
-              <img src="imagenes/Creatividad.jpg" alt="Creatividad" class="imagenes_carousel">
+    <!-- enlaces -->
+    <div class="collapse navbar-collapse txt_centrado" id="opciones" style="background-color: white; ">   
+      <ul class="navbar-nav" >
+        <li class="nav-item">
+          <a class="menu_activo menu__boton-principal" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="section menu__boton-principal"  href="pages/nuestra_empresa.html">Nuestra Empresa</a>
+        </li>
+        <li class="nav-item">
+          <a class="menu__boton-principal"  href="pages/nuestros_servicios.html">Servicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="menu__boton-principal"  href="pages/informacion_util.html">Información Útil</a>
+        </li>            
+        <li class="nav-item">
+          <a class="menu__boton-principal"  href="pages/contactenos.html">Escribinos</a>
+        </li>
+        <li class="nav-item">
+          <a class="menu__boton-principal"  href="http://pmasd.ar/">Ingresar a Profesoft</a>
+        </li>            
+      </ul>
+    </div>
+  <a class="navbar-brand" href="#" >
+    <a href="http://pmasd.ar/"><img src="imagenes/logoprofesoftII.png" alt="logo pmasd" id="logo_profesoft_menu"> </a>
+  </a>
+  </nav>
+  
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+      <!-- Indicadores -->
+      <ol class="carousel-indicators" >
+        <li data-target="#myCarousel" data-slide-to="0" class="active" ></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Entorno para las diapositivas -->
+      <div class="carousel-inner" >
+        <div class="item active">
+          <div class="container_div">
+            <div id="titulo_profesoft_carousel" class="titulo_pagina">
+                 Usalo donde este
             </div> 
-           
-            <div class="item">
-              <img src="imagenes/Crecimiento.jpg" alt="Crecimiento" class="imagenes_carousel">
-            </div>
+            <div>
+              <a href="http://pmasd.ar/"><img id="logo_profesoft_carousel" src="imagenes/logoprofesoftII.png" alt="logo profesoft" ></a>    
+           </div>
           </div>
-       
-          <!-- Controles izquierda - derecha -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" style="color: blue;"></span>
-            <span class="sr-only">Siguiente</span>
-          </a>
+     
+        </div>
+        
+        <div class="item">
+          <img src="imagenes/Creatividad.jpg" alt="Creatividad" class="imagenes_carousel">
+        </div> 
+        
+        <div class="item">
+          <img src="imagenes/Crecimiento.jpg" alt="Crecimiento" class="imagenes_carousel">
         </div>
       </div>
-    <div class="conteiner">
-        <footer class="row">
-            <div class="col col-md-12 col-sm-12 col-xs-12"></div>
-            <hr>
-                <p class="footer__texto"> 2021 © p mas d  y Asociados– Desarrollado por pmasd</p>
-            <hr>
-        </footer>
-    </div>    
+        <!-- Controles izquierda - derecha -->
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" ></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <footer class="row">
+        <div class="col col-md-12 col-sm-12 col-xs-12"></div>
+        <hr>
+            <p class="footer__texto"> 2021 © p mas d  y Asociados– Desarrollado por pmasd</p>
+        <hr>
+    </footer>
+  </div>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

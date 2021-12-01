@@ -46,12 +46,19 @@
     background-color: white;
  }
   
-#logo_profesoft{
+#logo_profesoft_menu{
   float: left;
-  width: $ancho_logo_profesoft;
-  height: $alto_logo_profesoft;
+  width: $ancho_logo_profesoft_menu;
+  height: $alto_logo_profesoft_menu;
+  top: 10px;  
+  /*left: 15px;*/
+  padding-right: 20px;
+} 
+
+#logo_profesoft_carousel{
+  float:left;
+  width: $ancho_logo_profesoft_carousel;
+  height: $alto_logo_profesoft_carousel;
   top: 10px;  
   left: 15px;
-  top: 0rem;
-    
-} 
+}

@@ -1,22 +1,24 @@
 @import "tamanos_fuentes";
 @media screen and (max-width: 639px) {
+    
     .titulo_pagina{
         font-size: $letra_grande/2;
     }
     .titulo_seccion {
-        font-size: $letra_mediana/2;
+        font-size: $letra_mediana*.7;
     }
-    
-    #logo_pmasd{
-        width: $ancho_logo_pmasd*.6;
-        height: $alto_logo_pmasd*.6;
-    }
-    #logo_profesoft{
-        width: $ancho_logo_profesoft*.4;
-        height: $alto_logo_profesoft*.4;
+    #logo_profesoft_menu{
         text-align: center;
     }
+    #logo_profesoft_carousel{
+        width: $ancho_logo_profesoft_carousel*.2;
+        height: $alto_logo_profesoft_carousel*.2;
+        text-align: center;
+    }
+    .titulo_carousel{
+        font-size: $letra_chica;
 
+    }
 
     .logoChico{
         width: $logo_chico*.6;
@@ -27,6 +29,16 @@
     }
     .parrafo{
         font-size: $letra_chica;
-    }    
-    
+    }
+    #div_profesoft_carousel{
+        height: 100px; 
+        width: 100px;
+        
+       }    
+   #titulo_carousel{
+    font-size: $letra_chica;
+    text-align: center;
+   }
+          
+   
   }

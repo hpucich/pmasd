@@ -2,7 +2,8 @@
 @import "tamanos_fuentes";
 
 .menu__boton-principal{
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
     font-size: 14px;
 }
 .menu__boton-principal:hover{
@@ -15,7 +16,9 @@
     color:$color_titulo;
 }
 .div_menu{
+    padding-top: 15px;
     padding-bottom: 30px;
+    
 }
 .menu_secundario{
     background-color: $color_titulo;
@@ -33,3 +36,16 @@
     color: $color_fondo;
     text-decoration: none
 }
+
+#div_profesoft_menu{
+    padding-top: 15px; 
+    text-align: right;
+
+  }
+
+  #boton_menu{
+    display: block;
+    margin: 0;  
+    width: $ancho_boton_menu;
+    height: $alto_boton_menu;
+  }

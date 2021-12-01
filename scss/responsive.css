@@ -3,16 +3,18 @@
     font-size: 1.5rem;
   }
   .titulo_seccion {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
-  #logo_pmasd {
-    width: 120px;
-    height: 60px;
-  }
-  #logo_profesoft {
-    width: 34px;
-    height: 20px;
+  #logo_profesoft_menu {
     text-align: center;
+  }
+  #logo_profesoft_carousel {
+    width: 28px;
+    height: 14px;
+    text-align: center;
+  }
+  .titulo_carousel {
+    font-size: 1rem;
   }
   .logoChico {
     width: 60px;
@@ -23,6 +25,14 @@
   }
   .parrafo {
     font-size: 1rem;
+  }
+  #div_profesoft_carousel {
+    height: 100px;
+    width: 100px;
+  }
+  #titulo_carousel {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

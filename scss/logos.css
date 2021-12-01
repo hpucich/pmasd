@@ -25,8 +25,8 @@
 
 #logo_pmasd {
   float: left;
-  width: 200px;
-  height: 100px;
+  width: 160px;
+  height: 80px;
   left: 15px;
   top: 0px;
   -webkit-animation-duration: 2s;
@@ -36,8 +36,8 @@
 }
 
 #Logo {
-  height: 100px;
-  width: 200px;
+  height: 80px;
+  width: 160px;
   border-style: solid;
 }
 
@@ -55,12 +55,20 @@
   background-color: white;
 }
 
-#logo_profesoft {
+#logo_profesoft_menu {
   float: left;
-  width: 85px;
-  height: 50px;
+  width: 160px;
+  height: 80px;
+  top: 10px;
+  /*left: 15px;*/
+  padding-right: 20px;
+}
+
+#logo_profesoft_carousel {
+  float: left;
+  width: 140px;
+  height: 70px;
   top: 10px;
   left: 15px;
-  top: 0rem;
 }
 /*# sourceMappingURL=logos.css.map */

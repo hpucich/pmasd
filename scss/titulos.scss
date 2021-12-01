@@ -20,12 +20,6 @@
    
 }
 
-#divprofesoft{
-    @extend %titulos;
-    font-size:$letra_mediana;
-    text-align: right;
-    padding-top: 15px;
-}
 
 
 .titulo_pagina{
@@ -38,6 +32,8 @@
     100%{opacity: 1;}
   }
 
-.titulo_carusel{
-    font-size: $letra_grande;
+#titulo_carousel{
+    @extend %titulos;
+    font-size: $letra_mediana;
+    text-align: right;
 }
