@@ -1,3 +1,7 @@
+.flecha {
+  color: crimson;
+}
+
 .container_div {
   position: relative;
   left: 50px;
@@ -21,9 +25,12 @@
 }
 
 @media screen and (max-width: 639px) {
+  .container_div {
+    height: 250px;
+  }
   #logo_profesoft_carousel {
-    width: 250px;
-    left: 20px;
+    width: 240px;
+    left: 10px;
     top: 40px;
   }
   #titulo_profesoft_carousel {
@@ -33,6 +40,9 @@
 }
 
 @media (min-width: 640px) and (max-width: 768px) {
+  .container_div {
+    height: 250px;
+  }
   #logo_profesoft_carousel {
     width: 300px;
     left: 15px;
@@ -45,8 +55,11 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .container_div {
+    height: 280px;
+  }
   #logo_profesoft_carousel {
-    width: 380px;
+    width: 300px;
     left: 15px;
     top: 50px;
   }

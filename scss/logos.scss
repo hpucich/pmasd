@@ -1,27 +1,13 @@
 @import "tamanos_fuentes";
 
-@keyframes animacion_logo{
-    0% {
-      apacity:0;
-    }
-    100% {
-      opacity: 1;
-    }
-  
-  }
 
-#logo_pmasd {
-    animation-duration: 2s;
-    animation-name: animacion_logo;
-}  
+  
 #logo_pmasd {
     float: left;
     width: $ancho_logo_pmasd;
     height:$alto_logo_pmasd;
     left: 15px;
     top: 0px;
-    animation-duration: 2s;
-    animation-name: animacion_logo;
   
 }
 
@@ -46,14 +32,7 @@
     background-color: white;
  }
   
-#logo_profesoft_menu{
-  float: left;
-  width: $ancho_logo_profesoft_menu;
-  height: $alto_logo_profesoft_menu;
-  top: 10px;  
-  /*left: 15px;*/
-  padding-right: 20px;
-} 
+ 
 
 #logo_profesoft_carousel{
   float:left;
